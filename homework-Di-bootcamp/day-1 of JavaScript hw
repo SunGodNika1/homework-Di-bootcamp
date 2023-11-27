@@ -1,0 +1,107 @@
+//  Exercise 1: Your Favorite Food 
+let favoritefood = 'chocolate'
+let favoritemeal ='dinner'
+console.log ('i eat' +" "+ favoritefood  + 'at every'  +" "+ favoritemeal)
+
+ // Exercise 2 : Series
+ //part1
+// (1)
+let myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
+
+let myWatchedSeriesLength = myWatchedSeries.length;
+console.log(myWatchedSeriesLength)
+
+// (2)
+
+let myWatchedSeriesSentence = `I watched ${myWatchedSeries[0]},${myWatchedSeries[1]},and ${myWatchedSeries[2]} `;
+console.log(myWatchedSeriesSentence);
+// (3)
+console.log(`i watcged 3 series,${myWatchedSeries}`)
+
+// part 2
+//(1)
+let indexOfBigBangTheory =myWatchedSeries.indexOf('the big bang theory')
+myWatchedSeries.splice(indexOfBigBangTheory,2, 'friends')
+console.log (myWatchedSeries)
+// (2)
+myWatchedSeries.push ('anime')
+
+console.log(myWatchedSeries)
+
+// (3)
+myWatchedSeries.unshift('one piece')
+console.log(myWatchedSeries)
+
+// (4)
+myWatchedSeries.splice(1,1)
+console.log(myWatchedSeries)
+
+// (5)
+let thirdLetterOfMoneyHeist = myWatchedSeries[1][2];
+console.log(`Third letter of the series "money heist": ${thirdLetterOfMoneyHeist}`);
+
+// (6)
+console.log (myWatchedSeries)
+
+// PART (3)
+// (1)Store a celsius temperature into a variable.
+
+let celsius_temperature = 10.0
+    
+    // (2)
+    let fahrenheitTemperature = celsius_temperature *9/5+32
+console.log(`${celsius_temperature}°C is ${fahrenheitTemperature}°F`)
+
+    //  Exercise 4 : Guess The Answers #1
+
+// What will be the outcome of a + b in the first expression ? answer  a +b =  55
+// What will be the outcome of a + b in the second expression ? Actual: 23
+ // (3), What is the value of c? undefined 
+// (4) Analyse the code below, what will be the outcome? '75'
+// Exercise 5 : Guess The Answers #2
+// (1) : number
+// (2) : number
+// (3 : number
+// (4) : string
+// (5l: bBoolean 
+// (6) : trut/ boolean
+// (7) : hamburgers string
+// (8:  NAN
+// (9)  : 2
+// (10)  : 'johnny5' string
+// (11) : NAN
+// (12) : true
+// (13) :  false.
+// Exercise 6 : Guess The Answers #3
+// (1): '534' string
+// (2): 1 number
+// (3): 0
+// (4): 5
+// (5): 'javascript'
+// (6): space
+// (7): '0' string
+// (8): 2
+// (9): 0
+// (10) 1
+// (11) false
+// (12) -1
+// (12) nan
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
